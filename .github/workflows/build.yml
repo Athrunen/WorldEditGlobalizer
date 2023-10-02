@@ -2,9 +2,9 @@ name: WorldEditGlobalizer Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ dev-3.1.0-beta ]
   pull_request:
-    branches: [ master ]
+    branches: [ dev-3.1.0-beta ]
 
 jobs:
   build:
